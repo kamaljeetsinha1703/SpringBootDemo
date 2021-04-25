@@ -9,7 +9,8 @@ public class FirstController {
 	@GetMapping("/welcome")
 	public String welcome() {
 		
-		return "welcome page";
+		String str ="My first git hub set up..!!!";
+		return str;
 		
 	}
 }
